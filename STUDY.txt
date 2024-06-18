@@ -1,1 +1,55 @@
-random file change.
+If we create a file then, we have to initialize git 
+===
+git init
+(!  initialize not require if we clone Repositories)
+------------------------------------------------------
+To clone from Git Repositories
+===
+step 1: Go to directory (desktop or file)
+eg. cd "desktop"
+step 2: then clone (go inside git repositories then 
+go to code and https and copy link) 
+eg. git clone link(copied link :to paste, crtl+shift+insert)
+---------------------------------------------------------
+step to add some thing in file, rename file , add file
+===
+*cd directory-name
+write something, rename etc
+-git status
+-git add
+-git status
+-git commit -m "write comment"
+-git commit
+-----------------------------------------------------
+To check history what we have done:
+===
+git log
+or
+git log --online
+---------------------------------------------------
+creating new branch
+===
+git branch branchname(eg. firstbranch)
+-----------------------------------------------------------
+switch to new branch
+===
+git switch branchname(eg. secondbranchh)
+---------------------------------------------------------
+To check the number of branch
+===
+git branch -v
+----------------------------------------------------------
+merging 2 branch
+===
+eg. to merge firstbranch and main branch.
+first go to main branch (branch where we add merged data)
+and then 
+code(git merge branchname (eg firstbranch,  )
+---------------------------------------------------------
+push file in github or link between git and github
+===
+git push -u origin main
+----------------------------------------------------------
+pull form git
+===
+git pull origin main
